@@ -6,4 +6,4 @@ I wanted a simple way to narrate a story just using a console. The intro to Elde
 ## TODO:
 - Add song support - play song on startup
 - Read from files using simple JSON format
-- Add drawing image effect for image formats
+- Add drawing image effect for img formats
