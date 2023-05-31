@@ -1,6 +1,3 @@
-//Welcome this is a world
-//Welcome this is a second world
-//Welcome this is a third world
 #include <iostream>
 #include <string>
 #include <ctime>
