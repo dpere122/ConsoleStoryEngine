@@ -65,13 +65,13 @@ int typeMessage(string message){
 	//define typing speed -- less is faster
 	float speed = 0.1f;
 	//define position align 1 = start typing past the ini border
-	int positionAlign = 1;
+	//int positionAlign = 1;
 	string borderSymbol = "|";
 	//print borders first
 	cout.width(page_size); cout << borderSymbol+"\r" << borderSymbol;
 	cout.fill(' ');cout.width((page_size-2-message.length())/2);
 	//for loop iterates through each character for printing with delay
-	for(int char_at = 0;char_at < message.length();char_at++){
+	for(int char_at = 0;char_at < static_cast<int>(message.length());char_at++){
 		preciseDelay(speed);
 		cout << message.at(char_at) << flush;
 
