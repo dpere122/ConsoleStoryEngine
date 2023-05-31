@@ -1,4 +1,5 @@
 # Prerequisites
+#
 *.d
 
 # Compiled Object files
@@ -30,3 +31,9 @@
 *.exe
 *.out
 *.app
+
+#Audio
+*.mp3
+*.mp4
+# Directories
+**src/build/

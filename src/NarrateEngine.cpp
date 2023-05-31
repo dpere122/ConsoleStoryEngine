@@ -2,6 +2,11 @@
 #include <string>
 #include <ctime>
 #include "../headers/main.h"
+#include <fmt/format.h>
+
+//for windows
+//#include <Windows.h>
+
 using namespace std;
 
 //This variable defines the space being used
@@ -10,10 +15,15 @@ int page_size = 70;
 
 int main()
 {
+	fmt::print("=====================================================================");
+	//Sound functionality
+	//For windows
+	//PlaySound(TEXT("../tracks/Opening-nRwRsBFfULI.mp3"),null,SND_FILENAME);
+	
 	//This variable defines the space being used
 	//page_size = total character per line
 	string tarnished;	
-	cout << "=====================================================================" << endl;
+	//cout << "=====================================================================" << endl;
 
 	dramaticize("The fallen leaves tell a story.");
 	
